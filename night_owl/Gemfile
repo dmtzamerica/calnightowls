@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+ruby '2.2.0'
+
+gem 'headless'
+gem 'mail'
+gem 'mysql'
+gem 'nokogiri'
+gem 'page-object'
+gem 'require_all'
+gem 'rest-client', '~>1.6.7', :require => 'rest_client'
+gem 'rspec', '~>2.13.0'
+gem 'ruby_thread_pool', :require => 'thread_pool'
+gem 'selenium-webdriver', '~>2.43.0'
