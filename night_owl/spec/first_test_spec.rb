@@ -1,14 +1,16 @@
 require "spec_helper"
-require "rspec"
-require "selenium-webdriver"
-require "headless"
 
 describe "the page" do
 
   it "has the title, 'Ruby Page Objects'" do
     puts "Ruby Page Objects"
-    sleep 5
-    @browser.get "http://www.google.com"
+
+    #gp = GooglePage.new(@browser)
+    visit GooglePage do |page|
+      puts page.class
+
+    end	
+    sleep 4
   end
 
 end
